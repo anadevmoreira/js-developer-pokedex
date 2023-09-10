@@ -4,15 +4,16 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #F6F8FC;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
+    padding: 1rem; 
+    background-image: url(/assets/images/background\ index.png);
 }
+
 
 @media screen and (min-width: 992px) {
     .content {

@@ -1,0 +1,212 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+        background: #f0f0f0; 
+
+    }
+    
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 2px; 
+    margin: 0; 
+    list-style: none;
+    background-image: url(/assets/images/fundobranco.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}   
+    
+.pokemon {
+    margin: 10px;
+    border: 2px; 
+    padding: 10px; 
+    border-radius: 1rem;
+}
+
+.pokemon-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 425px;
+  }
+  
+.number {
+    color: black;
+    opacity: .3;
+    text-align: right; 
+    font-size: 1rem;         
+    margin-left: auto; 
+
+}
+
+.name2 {
+    margin: 1rem;
+    padding: 0;
+    color: white;
+    text-transform: capitalize;
+}
+
+.photo {
+    max-width: 100%;
+    height: 15rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.container_types {
+    display: inline-flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+    color: rgb(80, 79, 79);
+    text-transform: capitalize;
+    padding: 0;
+}
+
+
+.types {
+    display: inline;
+    padding: 4px; 
+    background-color: white;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+}
+
+.container_detail {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.titulo_about_h1 {
+    color: #2b4b87;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container_types2 {
+    font-size: 22px;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.label {
+    color: #2b4b87;
+}
+
+.value {
+    color: rgb(80, 79, 79);
+}
+
+.button_page_detail {
+    padding: .25rem .5rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    background-color: #2b4b87;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+/* Cores dos pokemons */
+
+li.normal { 
+    background-color: #a6a877;
+}
+
+li.grass { 
+    background-color: #77c850;
+}
+
+li.fire { 
+    background-color: #ee7f30;
+}
+li.water { 
+    background-color: #678fee;
+}
+li.electric { 
+    background-color: #f7c72e;
+}
+li.ice { 
+    background-color: #98d5d7;
+}
+li.ground { 
+    background-color: #dfbf69;
+}
+li.flying { 
+    background-color: #a98ff0;
+}
+li.poison { 
+    background-color: #a040a0;
+}
+li.fighting { 
+    background-color: #bf3029;
+}
+li.psychic { 
+    background-color: #f65687;
+}
+li.dark { 
+    background-color: #725847;
+}
+li.rock { 
+    background-color: #b8a137;
+}
+li.bug { 
+    background-color: #a8b720;
+}
+li.ghost { 
+    background-color: #6e5896;
+}
+li.steel { 
+    background-color: #b9b7c7;
+}
+li.dragon { 
+    background-color: #6f38f6;
+}
+li.fairy { 
+    background-color: #f9aec7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
